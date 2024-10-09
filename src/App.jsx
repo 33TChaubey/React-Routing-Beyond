@@ -1,9 +1,15 @@
 import React from 'react'
-
+import Nav from './components/Nav';
+import Routing from './utils/Routing';
 const App = () => {
   return (
-    <div>Coomit</div>
-  )
-}
+    <>
+      <Nav />
+      <Routing />
 
-export default App
+
+    </>
+  )
+};
+
+export default App;
